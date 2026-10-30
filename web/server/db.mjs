@@ -36,7 +36,7 @@ function createPool() {
       connectionString: remoteUrl,
       ssl: { rejectUnauthorized: false },
       options: NO_JIT,
-      max: 8,
+      max: Number(process.env.PG_POOL_MAX || 8),
     });
   }
 
