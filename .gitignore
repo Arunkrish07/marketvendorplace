@@ -1,0 +1,15 @@
+.env
+.env.local
+.env.*.local
+
+node_modules/
+supabase/.branches/
+supabase/.temp/
+web/server/dev-uploads/
+
+# Generated: rebuild with scripts/gen-bundle.sh
+supabase/bundle/
+
+# Stray Create-Next-App scaffold: a bare .git with no working tree.
+# Not part of this project; left in place rather than deleted.
+eworks-temp/
